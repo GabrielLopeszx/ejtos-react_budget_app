@@ -19,6 +19,11 @@
   justify-content: center;
   cursor: pointer;
 }
+.button-label {
+    margin-top: 5px; /* Adjust the margin as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    text-align: center;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
