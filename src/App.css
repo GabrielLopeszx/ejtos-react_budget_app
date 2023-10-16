@@ -1,6 +1,25 @@
 .App {
   text-align: center;
 }
+.currency-dropdown {
+    cursor: pointer;
+}
+
+.currency-options {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.currency-options.show {
+    display: block;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -18,7 +37,9 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
 }
+
 .button-label {
     margin-top: 5px; /* Adjust the margin as needed */
     font-size: 14px; /* Adjust the font size as needed */
